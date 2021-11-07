@@ -3,8 +3,8 @@
 *###############################################################################
 $ontext*
 Created:         30.07.2018
-Last change:     30.07.2018
-* By: PH
+Last change:     07.11.2021
+* By: Philipp Hauser, Chair of Energy Economics, TU Dresden
 
 Description:
 *###############################################################################
@@ -18,7 +18,7 @@ $eolcom \\
 
 *** Version of the model (v01-v03)
 *------------------------------------
-$set Model_version 01 \\deterministisches Model ohne Ausbau für 2015
+$set Model_version 01 \\deterministisches Model ohne Ausbau fÃ¼r 2015
 
 ***Data-Input-Files       (in GaMaMod_dataload_vXX)
 *-------------------------------------
@@ -50,7 +50,7 @@ $set data_path   %Ordner_Source%
 *--------------------------------------
 *$set resultfile  S:\ph\GAMS\FZJ-TUD_(2015)\GaMaMod_v%Model_version%\output\results
 *$set tradefile   S:\ph\GAMS\FZJ-TUD_(2015)\GaMaMod_v%Model_version%\output\Trade_neighbouring_countries
-*$set toolfile    S:\ph\GAMS\FZJ-TUD_(2015)\GaMaMod_v%Model_version%\output\Tool_Importströme
+*$set toolfile    S:\ph\GAMS\FZJ-TUD_(2015)\GaMaMod_v%Model_version%\output\Tool_ImportstrÃ¶me
 
 *###############################################################################
 *                              Executution
@@ -84,7 +84,7 @@ option Iterlim = 10000000;
 *###############################################################################
 
 $include %GMSdata%
-         \\ lädt GaMaMod_Thesis_Cal2015_dataload
+         \\ lÃ¤dt GaMaMod_Thesis_Cal2015_dataload
          \\ wenn "$set LoadXLS" aktiviert, dann wird GDX erstellt
 
 *###############################################################################
