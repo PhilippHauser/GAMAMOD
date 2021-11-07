@@ -1,6 +1,6 @@
 # GAMAMOD
 This is the model repository for the thesis of Philipp Hauser (TU Dresden, Germany).
-Two modela can be found here on GitHub, GAMAMOD-EU and GAMAMOD-DE.   
+Two models can be found here on GitHub, GAMAMOD-EU and GAMAMOD-DE. Further background information about the model, data, and application can be found in the thesis.
 ## GAMAMOD-EU  
 The European gas market model **GAMAMOD-EU** depicts the EU-28 in detail and considers non-European pipeline and LNG suppliers. Using an linear programming approach, GAMAMOD-EU optimizes total system costs in the deterministic basic version for one year (365 days). A model extension the stochastic version **GAMAMOD-EU.sto** is done by implementing a two-stage stochastic programming approach. An extensive discussion on the model versions is given in Chapter 5 in the thesis. The data have been documented in the couse of the research project *'Erdgas-BRidGE'*, funded by the BMWi, Federal Ministry for Economic Affairs and Energy through the grant 'Erdgas-BRidGE', FKZ: 03ET4055A.
 
@@ -14,6 +14,6 @@ The gas market model for the German gas network **GAMAMOD-DE** focuses on a high
 Code: [GAMAMOD-DE](https://github.com/PhilippHauser/GAMAMOD/tree/main/GAMAMOD-DE)  
 Data: [ZENODO Link to the data base of GAMAMOD-DE](https://doi.org/10.5281/zenodo.1044463). 
 
-Further background information about the model, data, and application can be found in the thesis.
+
 
 
