@@ -4,7 +4,7 @@ Two model codes can be found here on GitHub, GAMAMOD-EU and GAMAMOD-DE.   
 ## GAMAMOD-EU  
 The European gas market model **GAMAMOD-EU** depicts the EU-28 in detail and considers non-European pipeline and LNG suppliers. Using an linear programming approach, GAMAMOD-EU optimizes total system costs in the deterministic basic version for one year (365 days). A model extension the stochastic version **GAMAMOD-EU.sto** is done by implementing a two-stage stochastic programming approach. An extensive discussion on the model versions is given in Chapter 5 in the thesis.  
 
-Folder: [GAMAMOD-EU](https://pages.github.com/)  
+Folder: [GAMAMOD-EU](https://github.com/PhilippHauser/GAMAMOD/tree/main/GAMAMOD-EU)  
 Folder: [GAMAMOD-EU.sto](https://pages.github.com/)  
 Data: [ZENODO Link to the data base of GAMAMOD-EU](https://doi.org/10.5281/zenodo.3923862).  
 
